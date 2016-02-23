@@ -1,10 +1,10 @@
 # rocketrip
-Requirements:
+### Requirements:
 tweepy
 argparse
 python 2.7
 
-Arguments (all are required):
+### Arguments (all are required):
 
 -ck, --consumer_key     Twitter application consumer key
 
@@ -16,5 +16,5 @@ Arguments (all are required):
 
 -k, --keyword           Keyword to search in tweets
 
-To Execute:
-python twitterSearch.py -ck <consumer key> -cs <consumer secret> -at <access token> -as <access secret> -k <keyword> 
+### To Execute:
+python twitterSearch.py -ck consumer_key -cs consumer_secret -at access_token -as access_secret -k keyword 
